@@ -35,6 +35,8 @@ import com.piyush.medium.DCP3;
  *    3   4
  *   / \
  *  5   6
+ *
+ *  answer is 4.
  */
 
 public class DCP8 {
