@@ -1,7 +1,5 @@
 package com.piyush.medium;
 
-import java.util.Arrays;
-
 /**
  * Daily Coding Problem: Problem #3 [Medium]
  *
@@ -22,7 +20,7 @@ import java.util.Arrays;
  * assert deserialize(serialize(node)).left.left.val == 'left.left'
  *
  * Input:
- *          20
+ *        20
  *        /
  *       8
  *      / \
