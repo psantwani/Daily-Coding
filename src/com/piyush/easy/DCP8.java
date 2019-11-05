@@ -19,6 +19,22 @@ import com.piyush.medium.DCP3;
  *   / \
  *  1   1
  *
+ *    0
+ *   / \
+ *  3   3
+ *     / \
+ *    2   2
+ *   / \
+ *  2   2
+ *
+ * answer is 6.
+ *    0
+ *   / \
+ *  1   2
+ *     / \
+ *    3   4
+ *   / \
+ *  5   6
  */
 
 public class DCP8 {
@@ -61,6 +77,34 @@ public class DCP8 {
 	univalSubTrees = 0;
 	solution(root);
 	System.out.println("UnivalSubTrees count : " + univalSubTrees);
+
+	Node root2 = new Node(0);
+	root2.left = new Node(3);
+	root2.right = new Node(3);
+
+	root2.right.left = new Node(2);
+	root2.right.left.left = new Node(2);
+	root2.right.left.right = new Node(2);
+
+	root2.right.right = new Node(2);
+
+	univalSubTrees = 0;
+	solution(root2);
+	System.out.println("UnivalSubTrees count : " + univalSubTrees);
+
+	Node root3 = new Node(0);
+	root3.left = new Node(1);
+	root3.right = new Node(2);
+
+	root3.right.left = new Node(3);
+	root3.right.left.left = new Node(4);
+	root3.right.left.right = new Node(5);
+
+	root3.right.right = new Node(6);
+
+	univalSubTrees = 0;
+	solution(root3);
+	System.out.println("UnivalSubTrees count : " + univalSubTrees);
   }
 
   private static boolean solution(Node root){
@@ -69,16 +113,19 @@ public class DCP8 {
       return true;
 	}
 
-	int rootVal = root.val;
-    int leftChildVal = root.left == null ? rootVal : root.left.val;
+    int leftVal = root.left == null ? 0 : root.left.val;
+	int rightVal = root.right == null ? 0 : root.right.val;
 
 	boolean left = solution(root.left);
     boolean right = solution(root.right);
 
-    if(left && right && rootVal == leftChildVal){
+    if(left && right && leftVal == rightVal){
       univalSubTrees++;
 	}
 
-	return left && right && rootVal == leftChildVal;
+	int rootVal = root.val;
+	int subTreeValue = root.left == null ? rootVal : root.left.val;
+
+	return left && right && rootVal == subTreeValue;
   }
 }
