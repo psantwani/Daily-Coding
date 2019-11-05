@@ -35,77 +35,77 @@ public class DCP3 {
 
   private static Integer pos = 0;
 
-  static class Node{
+  static class Node {
     Integer val;
     Node left;
     Node right;
 
-    Node(Integer val){
+    Node(Integer val) {
       this.val = val;
-	}
+    }
 
-    Node(Integer val, Node left, Node right){
+    Node(Integer val, Node left, Node right) {
       this.val = val;
       this.left = left;
       this.right = right;
-	}
+    }
 
-	@Override
-	public String toString(){
+    @Override
+    public String toString() {
       return this.val + " ";
-	}
+    }
   }
 
-  private static String serialize(Node root){
+  private static String serialize(Node root) {
 
-    if(root == null){
+    if (root == null) {
       return "-1 ";
-	}
+    }
 
-	String s = root.toString();
+    String s = root.toString();
 
-	String left = serialize(root.left);
+    String left = serialize(root.left);
     s += left.toString();
 
     String right = serialize(root.right);
-	s += right.toString();
+    s += right.toString();
 
     return s;
   }
 
-  private static Node deserialize(String s){
+  private static Node deserialize(String s) {
 
-    if(s == null || s.length() == 0){
+    if (s == null || s.length() == 0) {
       return null;
-	}
+    }
 
     String[] values = s.split(" ");
-    if(values.length == 1){
-	  return new Node(Integer.valueOf(values[0]), null, null);
-	}
+    if (values.length == 1) {
+      return new Node(Integer.valueOf(values[0]), null, null);
+    }
 
-	return deserialize(values);
+    return deserialize(values);
   }
 
-  private static Node deserialize(String[] input){
+  private static Node deserialize(String[] input) {
 
-    if(pos >= input.length){
+    if (pos >= input.length) {
       return null;
-	}
+    }
 
     int val = Integer.parseInt(input[pos]);
 
-    if(val == -1){
+    if (val == -1) {
       return null;
-	}
+    }
 
-	Node node = new Node(val);
+    Node node = new Node(val);
 
     pos = pos + 1;
     node.left = deserialize(input);
 
     pos = pos + 1;
-	node.right = deserialize(input);
+    node.right = deserialize(input);
 
     return node;
   }
