@@ -16,14 +16,6 @@ import java.util.Arrays;
 
 public class DCP4 {
 
-  public static void main(String[] args) {
-	int[] input = new int[]{3, 4, 4, -1, -1, 1, 1, 3};
-	solution(input);
-
-    input = new int[]{2, 4, 6, -8, -1, 1, 5, 3};
-    solution(input);
-  }
-
   /**
    * Approach : 1. First set all the negative numbers on the left.
    * After step 1, {3, 4, 4, -1, -1, 1, 1, 3} becomes {-1, -1, 4, 3, 4, 1, 1, 3}
@@ -83,6 +75,14 @@ public class DCP4 {
     System.out.println("First Positive Missing Number: " + firstPositiveMissingNumber);
     System.out.println("-----------------");
     return firstPositiveMissingNumber;
+  }
+
+  public static void main(String[] args) {
+    int[] input = new int[]{3, 4, 4, -1, -1, 1, 1, 3};
+    solution(input);
+
+    input = new int[]{2, 4, 6, -8, -1, 1, 5, 3};
+    solution(input);
   }
 
 }

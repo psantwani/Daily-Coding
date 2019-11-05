@@ -63,6 +63,28 @@ public class DCP8 {
    * Other than the leaf node, every node where the left and right node are themselves roots of univalSubtrees and are
    * equal in value, also makes the node a parent of a univalSubtree.
    */
+  private static boolean solution(Node root){
+
+    if(root == null){
+      return true;
+	}
+
+    int leftVal = root.left == null ? 0 : root.left.val;
+	int rightVal = root.right == null ? 0 : root.right.val;
+
+	boolean left = solution(root.left);
+    boolean right = solution(root.right);
+
+    if(left && right && leftVal == rightVal){
+      univalSubTrees++;
+	}
+
+	int rootVal = root.val;
+	int subTreeValue = root.left == null ? rootVal : root.left.val;
+
+	return left && right && rootVal == subTreeValue;
+  }
+
   public static void main(String[] args) {
 	Node root = new Node(0);
 	root.left = new Node(1);
@@ -105,27 +127,5 @@ public class DCP8 {
 	univalSubTrees = 0;
 	solution(root3);
 	System.out.println("UnivalSubTrees count : " + univalSubTrees);
-  }
-
-  private static boolean solution(Node root){
-
-    if(root == null){
-      return true;
-	}
-
-    int leftVal = root.left == null ? 0 : root.left.val;
-	int rightVal = root.right == null ? 0 : root.right.val;
-
-	boolean left = solution(root.left);
-    boolean right = solution(root.right);
-
-    if(left && right && leftVal == rightVal){
-      univalSubTrees++;
-	}
-
-	int rootVal = root.val;
-	int subTreeValue = root.left == null ? rootVal : root.left.val;
-
-	return left && right && rootVal == subTreeValue;
   }
 }

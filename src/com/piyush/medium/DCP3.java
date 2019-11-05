@@ -58,27 +58,6 @@ public class DCP3 {
 	}
   }
 
-  public static void main(String[] args) {
-    Node root = new Node(20);
-    root.left = new Node(8);
-
-	root.left.left = new Node(4);
-	root.left.right = new Node(12);
-
-	root.left.right.left = new Node(10);
-	root.left.right.right = new Node(14);
-
-	String s1 = serialize(root);
-	System.out.println("First time serialization : " + s1);
-
-	root = deserialize(s1);
-
-	String s2 = serialize(root);
-	System.out.println("Serialization after deserialization : " + s2);
-
-	System.out.println("Matches : " + s1.equals(s2));
-  }
-
   private static String serialize(Node root){
 
     if(root == null){
@@ -131,6 +110,27 @@ public class DCP3 {
 	node.right = deserialize(input);
 
     return node;
+  }
+
+  public static void main(String[] args) {
+    Node root = new Node(20);
+    root.left = new Node(8);
+
+    root.left.left = new Node(4);
+    root.left.right = new Node(12);
+
+    root.left.right.left = new Node(10);
+    root.left.right.right = new Node(14);
+
+    String s1 = serialize(root);
+    System.out.println("First time serialization : " + s1);
+
+    root = deserialize(s1);
+
+    String s2 = serialize(root);
+    System.out.println("Serialization after deserialization : " + s2);
+
+    System.out.println("Matches : " + s1.equals(s2));
   }
 
 }
