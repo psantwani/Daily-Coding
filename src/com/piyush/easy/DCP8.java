@@ -1,58 +1,56 @@
 package com.piyush.easy;
 
-import com.piyush.medium.DCP3;
-
 /**
  * This problem was asked by Google.
- *
+ * <p>
  * A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
- *
+ * <p>
  * Given the root to a binary tree, count the number of unival subtrees.
- *
+ * <p>
  * For example, the following tree has 5 unival subtrees:
- *
- *    0
- *   / \
- *  1   0
- *     / \
- *    1   0
- *   / \
- *  1   1
- *
- *    0
- *   / \
- *  3   3
- *     / \
- *    2   2
- *   / \
- *  2   2
- *
+ * <p>
+ * 0
+ * / \
+ * 1   0
+ * / \
+ * 1   0
+ * / \
+ * 1   1
+ * <p>
+ * 0
+ * / \
+ * 3   3
+ * / \
+ * 2   2
+ * / \
+ * 2   2
+ * <p>
  * answer is 6.
- *    0
- *   / \
- *  1   2
- *     / \
- *    3   4
- *   / \
- *  5   6
- *
- *  answer is 4.
+ * 0
+ * / \
+ * 1   2
+ * / \
+ * 3   4
+ * / \
+ * 5   6
+ * <p>
+ * answer is 4.
  */
 
 public class DCP8 {
 
   private static int univalSubTrees = 0;
 
-  static class Node{
+  static class Node {
 	Integer val;
 	Node left;
 	Node right;
 
-	Node(Integer val){
+	Node(Integer val) {
 	  this.val = val;
 	}
 
-	Node(Integer val, Node left, Node right){
+	Node(Integer val, Node left, Node right) {
 	  this.val = val;
 	  this.left = left;
 	  this.right = right;
@@ -65,20 +63,20 @@ public class DCP8 {
    * Other than the leaf node, every node where the left and right node are themselves roots of univalSubtrees and are
    * equal in value, also makes the node a parent of a univalSubtree.
    */
-  private static boolean solution(Node root){
+  private static boolean solution(Node root) {
 
-    if(root == null){
-      return true;
+	if (root == null) {
+	  return true;
 	}
 
-    int leftVal = root.left == null ? 0 : root.left.val;
+	int leftVal = root.left == null ? 0 : root.left.val;
 	int rightVal = root.right == null ? 0 : root.right.val;
 
 	boolean left = solution(root.left);
-    boolean right = solution(root.right);
+	boolean right = solution(root.right);
 
-    if(left && right && leftVal == rightVal){
-      univalSubTrees++;
+	if (left && right && leftVal == rightVal) {
+	  univalSubTrees++;
 	}
 
 	int rootVal = root.val;
