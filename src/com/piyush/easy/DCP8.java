@@ -2,39 +2,39 @@ package com.piyush.easy;
 
 /**
  * This problem was asked by Google.
- * <p>
+ *
  * A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
- * <p>
+ *
  * Given the root to a binary tree, count the number of unival subtrees.
- * <p>
+ *
  * For example, the following tree has 5 unival subtrees:
- * <p>
- * 0
- * / \
- * 1   0
- * / \
- * 1   0
- * / \
- * 1   1
- * <p>
- * 0
- * / \
- * 3   3
- * / \
- * 2   2
- * / \
- * 2   2
- * <p>
+ *
+ *    0
+ *   / \
+ *  1   0
+ *     / \
+ *    1   0
+ *   / \
+ *  1   1
+ *
+ *    0
+ *   / \
+ *  3   3
+ *     / \
+ *    2   2
+ *   / \
+ *  2   2
+ *
  * answer is 6.
- * 0
- * / \
- * 1   2
- * / \
- * 3   4
- * / \
- * 5   6
- * <p>
- * answer is 4.
+ *    0
+ *   / \
+ *  1   2
+ *     / \
+ *    3   4
+ *   / \
+ *  5   6
+ *
+ *  answer is 4.
  */
 
 public class DCP8 {
