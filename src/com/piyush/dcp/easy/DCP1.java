@@ -1,4 +1,4 @@
-package com.piyush.easy;
+package com.piyush.dcp.easy;
 
 import java.util.HashMap;
 import java.util.Map;

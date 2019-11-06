@@ -1,6 +1,4 @@
-package com.piyush.medium;
-
-import sun.text.normalizer.Trie;
+package com.piyush.dcp.medium;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,9 +1,7 @@
-package com.piyush.hard;
+package com.piyush.dcp.hard;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 /**
  This problem was asked by Amazon.

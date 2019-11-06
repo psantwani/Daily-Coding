@@ -1,7 +1,4 @@
-package com.piyush.hard;
-
-import java.util.Arrays;
-import java.util.Collections;
+package com.piyush.dcp.hard;
 
 /**
  * Daily Coding Problem: Problem #9 [Hard]

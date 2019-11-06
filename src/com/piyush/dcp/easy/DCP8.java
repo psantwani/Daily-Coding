@@ -1,4 +1,4 @@
-package com.piyush.easy;
+package com.piyush.dcp.easy;
 
 /**
  * This problem was asked by Google.

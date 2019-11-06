@@ -1,4 +1,4 @@
-package com.piyush.hard;
+package com.piyush.dcp.hard;
 
 import java.util.Arrays;
 

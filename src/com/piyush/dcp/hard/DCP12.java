@@ -1,6 +1,4 @@
-package com.piyush.hard;
-
-import java.util.Arrays;
+package com.piyush.dcp.hard;
 
 /**
  * This problem was asked by Amazon.
