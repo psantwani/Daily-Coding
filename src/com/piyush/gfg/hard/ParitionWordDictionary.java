@@ -104,9 +104,7 @@ public class ParitionWordDictionary {
 
     List<Integer> targets = map.get(num);
     if(targets == null || targets.size() == 0){
-      if(currList.size() != 0){
-        masterList.add(new ArrayList<>(currList));
-      }
+      masterList.add(new ArrayList<>(currList));
       return;
     }
 
@@ -131,7 +129,12 @@ public class ParitionWordDictionary {
     String input = "mangoicecream";
     solution(input, dict);
 
-    input = "GeeksQuiz";
+    System.out.println("-------------------");
+
+    dictArr = new String[]{"mobile","samsung","sam","sung", "man","mango","icecream","and", "go", "like","ice","cream"};
+    dict = new HashSet<>();
+    dict.addAll(Arrays.asList(dictArr));
+    input = "likelikemango";
     solution(input, dict);
   }
 }
