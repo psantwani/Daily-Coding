@@ -26,7 +26,7 @@
 
 **Microsoft** 
 
-[DCP75](src/com/piyush/dcp/microsoft/DCP875.java) - Given an array of numbers, find the length of the longest increasing subsequence in the array.
+[DCP75](src/com/piyush/dcp/microsoft/DCP75.java) - Given an array of numbers, find the length of the longest increasing subsequence in the array.
 
 **Stripe**
 
