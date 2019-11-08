@@ -1,10 +1,11 @@
-package com.piyush.dcp.medium;
+package com.piyush.dcp.google;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
 
 /**
+ * This problem was asked by Google.
  * Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
  */
 

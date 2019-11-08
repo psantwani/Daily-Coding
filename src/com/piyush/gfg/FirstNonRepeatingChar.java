@@ -1,4 +1,4 @@
-package com.piyush.gfg.easy;
+package com.piyush.gfg;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

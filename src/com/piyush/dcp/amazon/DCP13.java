@@ -1,4 +1,4 @@
-package com.piyush.dcp.hard;
+package com.piyush.dcp.amazon;
 
 import java.util.HashMap;
 import java.util.Map;

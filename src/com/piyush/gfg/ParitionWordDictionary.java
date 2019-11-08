@@ -1,4 +1,4 @@
-package com.piyush.gfg.hard;
+package com.piyush.gfg;
 
 import java.util.ArrayList;
 import java.util.Arrays;

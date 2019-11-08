@@ -1,4 +1,4 @@
-package com.piyush.dcp.hard;
+package com.piyush.dcp.amazon;
 
 /**
  * This problem was asked by Amazon.

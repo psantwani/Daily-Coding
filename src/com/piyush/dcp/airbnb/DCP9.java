@@ -1,4 +1,4 @@
-package com.piyush.dcp.hard;
+package com.piyush.dcp.airbnb;
 
 /**
  * Daily Coding Problem: Problem #9 [Hard]

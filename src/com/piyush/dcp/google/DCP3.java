@@ -1,4 +1,4 @@
-package com.piyush.dcp.medium;
+package com.piyush.dcp.google;
 
 /**
  * Daily Coding Problem: Problem #3 [Medium]
