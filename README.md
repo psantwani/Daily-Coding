@@ -28,6 +28,10 @@
 
 [DCP75](src/com/piyush/dcp/microsoft/DCP75.java) - Given an array of numbers, find the length of the longest increasing subsequence in the array.
 
+**Square**
+
+[DCP162](src/com/piyush/dcp/square/DCP162.java) - Given a list of words, return the shortest unique prefix of each word.
+
 **Stripe**
 
 [DCP4](src/com/piyush/dcp/stripe/DCP4.java) - Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
