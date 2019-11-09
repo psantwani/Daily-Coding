@@ -1,4 +1,4 @@
-**Total Solved till date - 15/365**
+<p style="text-align: center;"><b>Total Solved till date - 15/365</b></p>
 
 **Airbnb**
 
@@ -47,5 +47,5 @@
 [DCP2](src/com/piyush/dcp/uber/DCP2.java) -Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i. 
 
 **Miscellaneous**
-
 [DCP84](src/com/piyush/dcp/miscellaneous/DCP84.java) - Given a matrix of 1s and 0s, return the number of "islands" in the matrix.
+
