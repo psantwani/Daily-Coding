@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Total Solved till date - 16/365</b>
+  <b>Total Solved till date - 17/365</b>
 </p>
 
 <br>
@@ -29,6 +29,8 @@
 [DCP8](src/com/piyush/dcp/google/DCP8.java) - Given the root to a binary tree, count the number of unival subtrees.
 
 [DCP80](src/com/piyush/dcp/google/DCP80.java) - Given the root of a binary tree, return a deepest node.
+
+[DCP61](src/com/piyush/dcp/google/DCP61.java) - Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
 
 **Microsoft** 
 
