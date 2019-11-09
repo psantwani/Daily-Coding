@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Total Solved till date - 17/365</b>
+  <b>Total Solved till date - 18/365</b>
 </p>
 
 <br>
@@ -50,7 +50,8 @@
 
 **Uber**
 
-[DCP2](src/com/piyush/dcp/uber/DCP2.java) -Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i. 
+[DCP2](src/com/piyush/dcp/uber/DCP2.java) - Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
+[DCP293](src/com/piyush/dcp/uber/DCP293.java) - Pyramid form (increasing then decreasing) consecutive array using reduce operations. 
 
 **Miscellaneous**
 
