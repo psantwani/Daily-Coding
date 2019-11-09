@@ -1,4 +1,4 @@
-<p style="text-align: center;"><b>Total Solved till date - 15/365</b></p>
+<p style="align: center;">Total Solved till date - 15/365</p>
 
 **Airbnb**
 
