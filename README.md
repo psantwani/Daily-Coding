@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Total Solved till date - 15/365</b>
+  <b>Total Solved till date - 16/365</b>
 </p>
 
 <br>
@@ -51,5 +51,7 @@
 [DCP2](src/com/piyush/dcp/uber/DCP2.java) -Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i. 
 
 **Miscellaneous**
+
 [DCP84](src/com/piyush/dcp/miscellaneous/DCP84.java) - Given a matrix of 1s and 0s, return the number of "islands" in the matrix.
 
+[DCP81](src/com/piyush/dcp/miscellaneous/DCP81.java) - Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent.
