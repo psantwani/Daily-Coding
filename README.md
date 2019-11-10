@@ -44,7 +44,7 @@
 
 **Samsung**
 
-[DCP299](src/com/piyush/dcp/samsung/DCP299.java) - 
+[DCP299](src/com/piyush/dcp/samsung/DCP299.java) - Given an undirected graph of pipe connections, return the lowest cost configuration of pipes such that each house has access to water. 
 
 **Square**
 
