@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Total Solved till date - 21/365</b>
+  <b>Total Solved till date - 22/365</b>
 </p>
 
 <br>
@@ -41,6 +41,10 @@
 **Microsoft** 
 
 [DCP75](src/com/piyush/dcp/microsoft/DCP75.java) - Given an array of numbers, find the length of the longest increasing subsequence in the array.
+
+**Samsung**
+
+[DCP299](src/com/piyush/dcp/samsung/DCP299.java) - 
 
 **Square**
 
