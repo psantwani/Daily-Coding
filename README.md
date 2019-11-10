@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Total Solved till date - 20/365</b>
+  <b>Total Solved till date - 21/365</b>
 </p>
 
 <br>
@@ -59,6 +59,9 @@
 [DCP2](src/com/piyush/dcp/uber/DCP2.java) - Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
 
 [DCP293](src/com/piyush/dcp/uber/DCP293.java) - Pyramid form (increasing then decreasing) consecutive array using reduce operations. 
+
+**Yext**
+[DCP284](src/com/piyush/dcp/yext/DCP284.java) - Given a binary tree and a particular node, find all cousins of that node.
 
 **Miscellaneous**
 
