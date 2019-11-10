@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Total Solved till date - 18/365</b>
+  <b>Total Solved till date - 19/365</b>
 </p>
 
 <br>
