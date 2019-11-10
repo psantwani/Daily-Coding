@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Total Solved till date - 19/365</b>
+  <b>Total Solved till date - 20/365</b>
 </p>
 
 <br>
@@ -34,6 +34,10 @@
 
 [DCP61](src/com/piyush/dcp/google/DCP61.java) - Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
 
+**LinkedIn**
+
+[DCP357](src/com/piyush/dcp/linkedin/DCP357.java) - You are given a binary tree in a peculiar string representation. Each node is written in the form (lr), where l corresponds to the left child and r corresponds to the right child. Given this representation, determine the depth of the tree.
+
 **Microsoft** 
 
 [DCP75](src/com/piyush/dcp/microsoft/DCP75.java) - Given an array of numbers, find the length of the longest increasing subsequence in the array.
@@ -53,6 +57,7 @@
 **Uber**
 
 [DCP2](src/com/piyush/dcp/uber/DCP2.java) - Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
+
 [DCP293](src/com/piyush/dcp/uber/DCP293.java) - Pyramid form (increasing then decreasing) consecutive array using reduce operations. 
 
 **Miscellaneous**
