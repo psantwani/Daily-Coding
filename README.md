@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Total Solved till date - 22/365</b>
+  <b>Total Solved till date - 23/365</b>
 </p>
 
 <br>
@@ -57,6 +57,8 @@
 **Twitter**
 
 [DCP11](src/com/piyush/dcp/twitter/DCP11.java) - Implement an autocomplete system. That is, given a query string s and a set of all possible query strings, return all strings in the set that have s as a prefix.
+
+[DCP292](src/com/piyush/dcp/twitter/DCP292.java) - Given an adjacency list of students and their enemies, write an algorithm that finds a satisfactory pair of teams, or returns False if none exists.
 
 **Uber**
 
