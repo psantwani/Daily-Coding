@@ -36,6 +36,8 @@
 
 [DCP61](src/com/piyush/dcp/google/DCP61.java) - Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
 
+[DCP94](src/com/piyush/dcp/google/DCP94.java) - Given a binary tree of integers, find the maximum path sum between two nodes. 
+
 **LinkedIn**
 
 [DCP357](src/com/piyush/dcp/linkedin/DCP357.java) - You are given a binary tree in a peculiar string representation. Each node is written in the form (lr), where l corresponds to the left child and r corresponds to the right child. Given this representation, determine the depth of the tree.
