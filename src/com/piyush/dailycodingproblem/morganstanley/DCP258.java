@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * This problem was asked by Morgan Stanley.
@@ -41,8 +42,10 @@ public class DCP258 {
     Queue<Node> queue = new LinkedList();
     queue.add(root);
     queue.add(null);
+    result.add(root.data);
 
     char direction = 'L';
+    Stack<Node> stack;
 
     while (!queue.isEmpty()){
 
@@ -54,25 +57,37 @@ public class DCP258 {
           break;
         }
 
+        stack = new Stack<>();
+        while (!queue.isEmpty()){
+          Node queueNodeToStack = queue.poll();
+          stack.push(queueNodeToStack);
+        }
+
+        while (!stack.isEmpty()){
+          queue.add(stack.pop());
+        }
+
         queue.add(null);
         direction = direction == 'L' ? 'R' : 'L';
         continue;
       }
 
-      result.add(curr.data);
-
       if(direction == 'L'){
         if(curr.right != null){
+          result.add(curr.right.data);
           queue.add(curr.right);
         }
         if(curr.left != null){
+          result.add(curr.left.data);
           queue.add(curr.left);
         }
       } else if(direction == 'R'){
         if(curr.left != null){
+          result.add(curr.left.data);
           queue.add(curr.left);
         }
         if(curr.right != null){
+          result.add(curr.right.data);
           queue.add(curr.right);
         }
       }
@@ -91,6 +106,14 @@ public class DCP258 {
 
     root.right.left = new Node(6);
     root.right.right = new Node(7);
+
+    root.left.left.left = new Node(8);
+    root.left.left.right = new Node(9);
+
+    root.left.right.right = new Node(10);
+
+    root.right.left.left = new Node(11);
+    root.right.left.right = new Node(12);
 
     solution(root);
   }
