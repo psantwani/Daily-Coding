@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Total Solved till date - 24/365</b>
+  <b>Total Solved till date - 26/365</b>
 </p>
 
 <br>
@@ -79,3 +79,5 @@
 [DCP84](src/com/piyush/dcp/miscellaneous/DCP84.java) - Given a matrix of 1s and 0s, return the number of "islands" in the matrix.
 
 [DCP81](src/com/piyush/dcp/miscellaneous/DCP81.java) - Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent.
+
+[DCP83](src/com/piyush/dcp/miscellaneous/DCP83.java) - Invert a binary tree.
