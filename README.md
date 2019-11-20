@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Total Solved till date - 28/365</b>
+  <b>Total Solved till date - 29/365</b>
 </p>
 
 <br>
@@ -73,7 +73,9 @@
 
 [DCP2](src/com/piyush/dailycodingproblem/uber/DCP2.java) - Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
 
-[DCP293](src/com/piyush/dailycodingproblem/uber/DCP293.java) - Pyramid form (increasing then decreasing) consecutive array using reduce operations. 
+[DCP293](src/com/piyush/dailycodingproblem/uber/DCP293.java) - Pyramid form (increasing then decreasing) consecutive array using reduce operations.
+
+[DCP350](src/com/piyush/dailycodingproblem/uber/DCP350.java) - Write a program that determines the smallest number of perfect squares that sum up to N. 
 
 **Yext**
 
