@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Total Solved till date - 30/365</b>
+  <b>Total Solved till date - 31/365</b>
 </p>
 
 <br>
@@ -51,6 +51,9 @@
 **Morgan Stanley**
 
 [DCP258](src/com/piyush/dailycodingproblem/morganstanley/DCP258.java) - Given a binary tree, write an algorithm to print the nodes in boustrophedon order.
+
+**Palantir**
+[DCP95](src/com/piyush/dailycodingproblem/palantir/DCP95.java) - Given a number represented by a list of digits, find the next greater permutation of a number.
 
 **Samsung**
 
