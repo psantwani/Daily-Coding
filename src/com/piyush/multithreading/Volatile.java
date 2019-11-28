@@ -8,7 +8,8 @@ class Processor extends Thread{
    * When Java runs a new thread, it caches/optimizes the data that is uses, because it assumes that
    * no outside code will update the data. But in this case, we are updating running from the main thread.
    * Hence, if we don't instruct Java to not cache, it is possible that it will never know when running becomes false
-   * and it will keep running in infinite loop. Volatile keyword ensures that.
+   * and it will keep running in infinite loop. Volatile keyword ensures that. It makes sure that all threads can see
+   * the current state of the variable.
    */
   private volatile boolean running = true;
 
