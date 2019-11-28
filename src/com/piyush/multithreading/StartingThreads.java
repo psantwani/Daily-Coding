@@ -1,5 +1,8 @@
 package com.piyush.multithreading;
 
+/**
+ * Creating a thread by extending the thread class and overriding run method.
+ */
 class One extends Thread {
   @Override
   public void run() {
@@ -14,6 +17,9 @@ class One extends Thread {
   }
 }
 
+/**
+ * Creating a thread by implementing the Runnable interface and overriding run method.
+ */
 class Two implements Runnable {
   @Override
   public void run() {
@@ -41,6 +47,9 @@ public class StartingThreads {
     t1.start();
     t2.start();
 
+    /**
+     * Creating a thread by using anonymous class inside Thread constructor.
+     */
     Thread tAnonymous = new Thread(new Runnable() {
       @Override
       public void run() {
@@ -55,6 +64,11 @@ public class StartingThreads {
       }
     });
 
+    /**
+     * We call the start method instead of the run method. That is because if you call the run method, the
+     * code will starting executing the main thread itself. Calling start method, runs the code in its own
+     * new thread.
+     */
     tAnonymous.start();
   }
 
