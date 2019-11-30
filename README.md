@@ -5,3 +5,4 @@
 3. [Synchronized Keyword](src/com/piyush/multithreading/Synchronized.java)
 4. [Multiple Locks](src/com/piyush/multithreading/MultipleLocks.java)
 5. [Thread Pool](src/com/piyush/multithreading/ThreadPool.java)
+5. [Countdown Latch](src/com/piyush/multithreading/CountDownLatchExample.java)
