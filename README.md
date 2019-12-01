@@ -7,3 +7,4 @@
 5. [Thread Pool](src/com/piyush/multithreading/ThreadPool.java)
 6. [Countdown Latch](src/com/piyush/multithreading/CountDownLatchExample.java)
 7. [Producer Consumer](src/com/piyush/multithreading/ProducerConsumer.java)
+8. [Wait and Notify](src/com/piyush/multithreading/WaitAndNotify.java)
