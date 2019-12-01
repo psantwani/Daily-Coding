@@ -10,3 +10,4 @@
 8. [Wait and Notify](src/com/piyush/multithreading/WaitAndNotify.java)
 9. [Low Level Synchronization](src/com/piyush/multithreading/LowLevelSynchronization.java)
 10. [Re-entrant lock](src/com/piyush/multithreading/ReEntrantLock.java)
+11. [Deadlock](src/com/piyush/multithreading/Deadlock.java)
