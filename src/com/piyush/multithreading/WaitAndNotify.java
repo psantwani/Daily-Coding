@@ -2,6 +2,9 @@ package com.piyush.multithreading;
 
 import java.util.Scanner;
 
+/*
+Both wait and notify can only be called inside the synchronized block. They are methods of the object class.
+ */
 class Processor4 {
   public void produce() throws InterruptedException {
     synchronized (this){
