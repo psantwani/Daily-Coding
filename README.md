@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Total Solved till date - 31/365</b>
+  <b>Total Solved till date - 32/365</b>
 </p>
 
 <br>
@@ -54,6 +54,9 @@
 
 **Palantir**
 [DCP95](src/com/piyush/dailycodingproblem/palantir/DCP95.java) - Given a number represented by a list of digits, find the next greater permutation of a number.
+
+**Pandora**
+[DCP280](src/com/piyush/dailycodingproblem/pandora/DCP280.java) - Given an undirected graph, determine if it contains a cycle.
 
 **Samsung**
 
