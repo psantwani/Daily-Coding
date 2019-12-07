@@ -152,6 +152,7 @@ class ParkingLot{
   public void unPark(Vehicle vehicle){
     Slot slot = vehicle.getAssignedSlot();
     slot.unAssignVehicle();
+    levels[slot.getLevel()].setIsFull(false);
     System.out.println("UnParked:" + slot.toString());
   }
 
@@ -187,7 +188,12 @@ class Level {
       }
     }
 
+    this.isFull = true;
     return null;
+  }
+
+  public void setIsFull(boolean isFull){
+    this.isFull = isFull;
   }
 
   public String toString(){
@@ -211,6 +217,10 @@ class Slot {
 
   public boolean isAvailable(){
     return this.isAvailable;
+  }
+
+  public int getLevel(){
+    return this.level;
   }
 
   public void assignVehicle(Vehicle vehicle){
