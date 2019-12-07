@@ -5,3 +5,4 @@
 5. [Parking Lot](src/com/piyush/oodesign/ParkingLot/ParkingLotMain.java)
 6. [Shuffle Array](src/com/piyush/oodesign/ShuffleArray/ShuffleArrayMain.java)
 7. [Peeking Iterator](src/com/piyush/oodesign/PeekingIterator/PeekingIteratorMain.java)
+8. [Magic Dictionary](src/com/piyush/oodesign/MagicDictionary/MagicDictionaryMain.java)
