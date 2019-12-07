@@ -4,3 +4,4 @@
 4. [Twitter design](src/com/piyush/oodesign/Twitter/TwitterMain.java)
 5. [Parking Lot](src/com/piyush/oodesign/ParkingLot/ParkingLotMain.java)
 6. [Shuffle Array](src/com/piyush/oodesign/ShuffleArray/ShuffleArrayMain.java)
+7. [Peeking Iterator](src/com/piyush/oodesign/PeekingIterator/PeekingIteratorMain.java)
