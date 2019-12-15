@@ -1,6 +1,6 @@
 package com.piyush.geeksforgeeks;
 
-// Time complexity : O(n). Space complexity : O(1)
+// Time complexity : O(m*n). Space complexity : O(1)
 public class StringCountAsSubsequence {
 
   /**
